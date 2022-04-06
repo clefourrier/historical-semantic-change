@@ -8,11 +8,16 @@ This repository contains two main folders:
 	- **cognates_large_uniq_cog/bor_manual.csv**, manually cleaned cognates/borrowings datasets after extraction
 - **embeddings**, which contains 
 	- **historical_datasets**, the cleaned datasets we used to build the embedding spaces for the historical languages, in old Spanish (osp) and medieval French (frm)
-	- **extracted_embeddings**, the extracted embeddings we generated, for fasttext and bert, with a script to display similarity scores
+	- **extracted_embeddings**, the extracted embeddings we generated, for fasttext and bert, with a notebook to display similarity scores, called **EmbeddingsAnalysis.ipynb**
 
-## Using the Wiktionary extractor
+## Using the scripts
+### Wiktionary extractor
 To use the WiktionaryParser script, you need to have Python3 and Jupyter installed. It uses unidecode and unicodedata Python libs. 
 Then, you need to download the current version of the Wiktionary article pages data dump, which should be named "enwiktionary-latest-pages-articles.xml", and save it in the script folder. Extraction will take some time to run.
+
+### Embeddings Analysis 
+To use the WiktionaryParser script, you need to have Python3 and Jupyter installed. It uses pickle, scipy, pandas and numpy Python libs. 
+
 
 ## Licence
 This repo and its code is CC BY-NC-SA.
