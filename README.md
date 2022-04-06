@@ -18,6 +18,8 @@ Then, you need to download the current version of the Wiktionary article pages d
 ### Embeddings Analysis 
 To use the WiktionaryParser script, you need to have Python3 and Jupyter installed. It uses pickle, scipy, pandas and numpy Python libs. 
 
+The "mbert_embedding/meaning_eng.pickle" is not on the repo because of its size, but it is available on request.
+
 
 ## Licence
 This repo and its code is CC BY-NC-SA.
